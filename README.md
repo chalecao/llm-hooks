@@ -1,8 +1,10 @@
 # 🧠 LLM Hooks
+中文:[README.zh-CN.md](README.zh-CN.md)
 
 A powerful collection of React hooks for AI and LLM (Large Language Model) functionalities, featuring WebGPU acceleration and real-time streaming capabilities.
 
 🌐 **Live Documentation**: [https://w3pua.com/tool/llm-hooks/](https://w3pua.com/tool/llm-hooks/)
+🌐 **在线文档**: [https://w3pua.com/tool/llm-hooks/](https://w3pua.com/tool/llm-hooks/)
 
 ## ✨ Features
 
