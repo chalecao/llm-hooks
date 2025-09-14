@@ -229,8 +229,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🔗 Links
 
 - 📖 [Full Documentation](https://w3pua.com/tool/llm-hooks/)
-- 🐛 [Report Issues](https://github.com/your-username/llm-hooks/issues)
-- 💬 [Discussions](https://github.com/your-username/llm-hooks/discussions)
+- 🐛 [Report Issues](https://github.com/chalecao/llm-hooks/issues)
+- 💬 [Discussions](https://github.com/chalecao/llm-hooks/discussions)
 - 📦 [NPM Package](https://www.npmjs.com/package/llm-hooks)
 
 ---
