@@ -1,0 +1,96 @@
+{
+  "name": "llm-hooks",
+  "version": "1.0.5",
+  "description": "A collection of useful React hooks for llm-related functionality",
+  "author": "chalecao",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.es.js",
+  "module": "./dist/index.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.es.js"
+    },
+    "./useFetchStream": {
+      "types": "./dist/useFetchStream.d.ts",
+      "import": "./dist/useFetchStream.js",
+      "require": "./dist/useFetchStream.js"
+    },
+    "./useTypingEffect": {
+      "types": "./dist/useTypingEffect.d.ts",
+      "import": "./dist/useTypingEffect.js",
+      "require": "./dist/useTypingEffect.js"
+    },
+    "./useLLM": {
+      "types": "./dist/useLLM.d.ts",
+      "import": "./dist/useLLM.js",
+      "require": "./dist/useLLM.js"
+    },
+    "./useTTS": {
+      "types": "./dist/useTTS.d.ts",
+      "import": "./dist/useTTS.js",
+      "require": "./dist/useTTS.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "react",
+    "hooks",
+    "ai",
+    "streaming",
+    "typing-effect",
+    "fetch",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chalecao/llm-hooks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chalecao/llm-hooks/issues"
+  },
+  "homepage": "https://github.com/chalecao/llm-hooks#readme",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0",
+    "@huggingface/transformers": ">=3.7.3",
+    "kokoro-js-zh": ">=2.1.7"
+  },
+  "dependencies": {
+    "i18next": "^25.5.2",
+    "path": "^0.12.7",
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0",
+    "react-i18next": "^15.7.3",
+    "react-router-dom": "^7.9.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.2",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.5",
+    "vite-plugin-dts": "^4.5.4"
+  },
+  "scripts": {
+    "dev": "vite  --config vite.docs.config.ts",
+    "build": "vite build",
+    "build:docs": "vite build --config vite.docs.config.ts",
+    "pack": "cd dist-docs && zip -r llm-hooks.zip ./",
+    "preview": "vite preview",
+    "preview:docs": "vite preview --config vite.docs.config.ts",
+    "prepublish": "npm version patch"
+  }
+}

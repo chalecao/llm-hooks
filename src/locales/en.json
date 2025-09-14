@@ -1,0 +1,6 @@
+{
+  "welcome": "Welcome to llm-hooks Documentation",
+  "description": "llm-hooks provides useful React hooks for AI-related functionalities.",
+  "typingEffect": "useTypingEffect - Simulates typing animation",
+  "fetchStream": "useFetchStream - Handles streaming fetch requests"
+}

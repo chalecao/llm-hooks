@@ -1,0 +1,6 @@
+{
+  "welcome": "欢迎使用llm-hooks文档",
+  "description": "llm-hooks提供了一些用于AI相关功能的React钩子。",
+  "typingEffect": "useTypingEffect - 模拟打字动画效果",
+  "fetchStream": "useFetchStream - 处理流式请求"
+}
